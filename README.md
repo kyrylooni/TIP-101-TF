@@ -10,3 +10,5 @@ Welcome to the [**CodePath Technical Interview Prep (TIP101)**](https://www.code
 The purpose of this repository is to provide:
 - **Problem sets** aligned with the CodePath curriculum.
 - **Reference solutions** and explanations.
+
+### Please note that this is NOT an original solution repository for all the course solutions. This is a Tech Fellow version. The original solutions repository should be accessed through CodePath's student portal!
