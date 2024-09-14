@@ -64,4 +64,5 @@ def print_negatives(lst):
             print(num)
        
        
+print_negatives([3,-2,2,1,-5])
 
