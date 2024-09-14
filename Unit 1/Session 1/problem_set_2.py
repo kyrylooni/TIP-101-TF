@@ -30,9 +30,9 @@ def multiply_list(lst, multiplier):
         new_lst.append(mult_num)
     return new_lst
 
-lst = []
-new_lst = multiply_list(lst, 3)
-print(new_lst)
+# lst = []
+# new_lst = multiply_list(lst, 3)
+# print(new_lst)
 
 
 # Problem 15: Count Evens
@@ -65,10 +65,10 @@ def count_evens(lst):
             total_evens += 1
     return total_evens
     
-lst1 = [1,5,7,9]
-count1 = count_evens(lst1)
-print(count1)
+# lst1 = [1,5,7,9]
+# count1 = count_evens(lst1)
+# print(count1)
 
-lst2 = [2,4,6,8]
-count2 = count_evens(lst2)
-print(count2)
+# lst2 = [2,4,6,8]
+# count2 = count_evens(lst2)
+# print(count2)
