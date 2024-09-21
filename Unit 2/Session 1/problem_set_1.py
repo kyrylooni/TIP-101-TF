@@ -88,6 +88,8 @@ def highest_rated(books):
 # current_index = 0 value for current index 
 # for element in list:
 #    index_to_map[current_index] = element (0 --> current element of the list)
+#    current_index += 1 
+#return index_to_map
 
 
 #I - Implement: 
