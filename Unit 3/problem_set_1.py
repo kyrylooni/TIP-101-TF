@@ -83,7 +83,7 @@ def reverse_string(my_str):
 # 1) Initialize the dictionary that will count each index in the string
 # 2) Iterate over the input string and add it to the dictionary with the corespondent counter value (1 if seen at least once, increment counter on each character)
 # 3) Loop through each character of the input string again, but also track the current index
-# a) If that character occurs once, return the current index
+#   a) If that character occurs once, return the current index
 # 4) If no character with value 1 is found in the dictionary, return -1
 
 
@@ -103,11 +103,11 @@ def first_unique_char(my_str):
     return - 1
 
 
-my_str = "leetcode"
-print(first_unique_char(my_str))
+# my_str = "leetcode"
+# print(first_unique_char(my_str))
 
-str2 = "loveleetcode"
-print(first_unique_char(str2))
+# str2 = "loveleetcode"
+# print(first_unique_char(str2))
 
-str3 = "aabb"
-print(first_unique_char(str3))
+# str3 = "aabb"
+# print(first_unique_char(str3))
