@@ -70,16 +70,18 @@ def reverse_list(lst):
 
     while left_pointer < right_pointer:
         temp_variable = lst[left_pointer]
+        print("TEMP POINTER:", temp_variable)
 
         lst[left_pointer] = lst[right_pointer]
         lst[right_pointer] = temp_variable
-        left_pointer = + 1
-        right_pointer = - 1
+        # print(lst[left_pointer], lst[right_pointer])
+        left_pointer =+ 1
+        right_pointer =- 1
     return lst
 
 
-# lst = [1, 2, 3, 4, 5]
-# print(reverse_list(lst))
+lst = [1, 2, 3, 4, 5]
+print(reverse_list(lst))
 
 # Time Complexity:
 # O(n), because we iterate over the list once, performing a constant-time swap at each step.
